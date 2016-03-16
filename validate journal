@@ -1,0 +1,7 @@
+function validate_name_journal(type) {
+	if(nlapiGetCurrentLineItemValue('line','entity') == '' || nlapiGetCurrentLineItemValue('line','entity') == null) {
+		alert('Name Required');
+		return false;
+	}
+	return true;
+}

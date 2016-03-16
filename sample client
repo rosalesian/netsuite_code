@@ -1,0 +1,8 @@
+
+function save_record() {
+	var cusbody = nlapiGetFieldValue('custbody109');
+	var memo = nlapiGetFieldValue('memo');
+	var date = nlapiGetFieldValue('trandate');
+	alert(cusbody+" "+memo+" "+date);
+	return true;
+}
